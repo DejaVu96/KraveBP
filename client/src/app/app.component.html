@@ -1,0 +1,9 @@
+<h1>{{title}}</h1>
+
+<ul>
+    @for (krava of krave; track krava.id) {
+        <li>
+            {{krava.id}} - {{krava.imeMajke}} - {{krava.datumRodjenja}}
+        </li>
+    }
+</ul>

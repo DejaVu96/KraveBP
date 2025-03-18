@@ -16,7 +16,7 @@ namespace KraveBazaAPI.Controllers
 
             return krave;
         }
-        
+
         [HttpGet("{id:int}")] // /api/krave/2
         public async Task<ActionResult<Krava>> GetKrava(int id)
         {
